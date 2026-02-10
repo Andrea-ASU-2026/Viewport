@@ -258,7 +258,7 @@ img{
 
     section{
         background-color: var(--light-gray);
-        section: var(--dark-gray);
+        color: var(--dark-gray);
     }
 
     #one{
