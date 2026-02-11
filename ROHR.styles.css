@@ -151,9 +151,9 @@ footer .icon{
         0% { font-variation-settings: "TIME" 1; }
     }
 
-    @media (prefers-reduced-motion) {
+    @media (prefers-reduced-motion: reduce) {
     .icon {
-        animation: subtle 1s;
+        animation: none;
     }
 }
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
@@ -345,7 +345,7 @@ img{
 
     img{
         width: 150px;
-        max-width: 500px;
+        max-width: 150px;
     } 
     }
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
