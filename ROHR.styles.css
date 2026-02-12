@@ -51,6 +51,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
 /* ---------- VARIABLES ---------- */
 :root{
@@ -88,7 +90,6 @@ table {
 }
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-
 
 
 /* ----- HEADINGS ----- */
@@ -140,6 +141,16 @@ footer .icon{
   100% { font-variation-settings: "TIME" 100; }
 }
 
+/* ---- Added @supports feature queries ---- */
+
+@supports not (row-gap: 10px) {
+  section {
+    border: 3px dashed #9a0093;
+
+  }
+}
+
+/* ---- End @supports feature queries----- */
 
 
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
