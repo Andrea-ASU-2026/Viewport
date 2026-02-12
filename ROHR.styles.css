@@ -335,29 +335,37 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
+    img{
+        width: 150px;
+        max-width: 150px;
+        height: auto;
+    } 
 
     @media only screen and (min-width: 1380px) {
 
     img{
         width: 300px;
         max-width: 300px;
-    } 
+        height: auto;
+        } 
     }
 
- @media only screen and (min-width: 621px) and (max-width: 1379px) {
+     @media only screen and (min-width: 621px) and (max-width: 1379px) {
 
     img{
         width: 200px;
         max-width: 200px;
-    } 
+        height: auto;
+     } 
     }
 
-@media only screen and (max-width: 620px) {
+    @media only screen and (max-width: 620px) {
 
     img{
-        width: 150px;
-        max-width: 150px;
-    } 
+        width: 500px;
+        max-width: 500px;
+        height: auto;
+     } 
     }
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
